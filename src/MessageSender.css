@@ -47,9 +47,16 @@
   align-items: center;
   color: gray;
   margin: 5px;
+  user-select: none;
+  cursor: pointer;
 }
 
 .messageSender__option > h3 {
   font-size: medium;
   margin-left: 10px;
+}
+
+.messageSender__option:hover {
+  background-color: #eff2f5;
+  border-radius: 20px;
 }

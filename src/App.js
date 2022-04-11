@@ -10,19 +10,13 @@ function App() {
   const user = null;
   return (
     <div className="app">
-      {!user ? (
-        <Login />
-      ) : (
-        <>
-          <Header />
+      <Header />
 
-          <div className="app__body">
-            <Sidebar />
-            <Feed />
-            <Widgets />
-          </div>
-        </>
-      )}
+      <div className="app__body">
+        <Sidebar />
+        <Feed />
+        <Widgets />
+      </div>
     </div>
   );
 }
